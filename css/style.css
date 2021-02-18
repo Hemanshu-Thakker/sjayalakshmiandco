@@ -1,0 +1,156 @@
+@font-face {
+  font-family: champagne;
+  src: url(../fonts/champagne.ttf);
+}
+
+@font-face {
+  font-family: apercu-light;
+  src: url(../fonts/apercu-light.woff);
+}
+
+@font-face {
+  font-family: apercu-medium;
+  src: url(../fonts/apercu-medium.woff);
+}
+
+@font-face {
+  font-family: Luvenia;
+  src: url(../fonts/Luvenia.ttf);
+}
+
+.navbar{
+	/*height: 80px;*/
+	padding: 5px;
+}
+
+a{
+	text-decoration: none;
+	color: unset!important;
+}
+
+.section2-width{
+	width: 100%;
+	height: 100vh;
+}
+
+.sandwitch{
+	padding: 50px 0px;
+}
+
+.section-dims{
+	width: 100%;
+	min-height: 100vh;
+}
+
+.footer-styles{
+	color: #eee7e7;
+	display: flex;
+	justify-content: space-around;
+}
+
+.footer-styles span{
+	padding: 0px 40px;
+}
+
+.footer-styles span ul{
+	list-style-type: none;
+	padding-left: 10px; 
+}
+
+.footer-con{
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0px;
+}
+
+.footer-bg{
+	background-color: #0d296b;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.section4-bg{
+	background-color: rgba(0,0,0,0.05)
+}
+
+.nav-link{
+	padding-left: 25px!important;
+	padding-right: 25px!important; 
+	padding-top: 25px!important;
+	padding-bottom: 25px!important;  
+	font-size: 22px;
+	font-family: apercu-medium;
+}
+
+.nav-item{
+	color: #183884!important;
+	border-bottom: 4px solid #f8f9fa; 
+}
+
+.nav-item:hover{
+	background-color: #f0ba00;
+	color: #fff!important;
+	border-bottom: 4px solid #183884;
+}
+
+.font-default{
+	font-size: 22px;
+}
+
+.font-family-header{
+	font-family: apercu-medium;
+}
+
+.font-family-para{
+	font-family: apercu-light;
+}
+
+.icon-dims{
+	width: 50px;
+	height: 50px;
+}
+.image1-dim{
+	width: 80px;
+	height: 80px;
+}
+
+.image2-dim{
+	height: 25px;
+	width: auto;
+}
+
+.font-default-colour{
+	color: #183884!important;
+}
+
+.display-action{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 15px; 
+}
+
+.underline-magic2{
+	border: 2px solid #f0ba00;
+	width: 200px;
+}
+
+.about-image{
+	min-height: 450px;
+	width: 100%;
+}
+
+.row-padding{
+	padding-top: 100px;
+}
+
+.image-default{
+	width: 100%;
+	height: 200px;
+	border-radius: 8px;
+	border: 2px solid #f0ba00;
+	background-color: white; 
+	/*margin: 0px 30px!important;*/
+}
